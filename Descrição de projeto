@@ -1,0 +1,90 @@
+
+Luzes de Natal
+
+DESCRIÇÃO DO PROJETO
+
+
+
+Este projeto têm como finalidade testar conhecimentos ao nível iniciante, utilizando a linguagem de programação Javascript, a linguagem de marcação HTML5 e CSS (Cascading Style Sheet, ou Folha de Estilo em Cascatas), para a estilização de componentes; desenvolvendo com essas ferramentas um projeto de "Exibição de luzes de Natal".
+Sua funcionalidade se baseia em :
+" Desempenhar através de círculos coloridos subsequentes, um sistema de iluminação alternada, em que; quando um círculo emite luz outro irá retornar em seu estado de intensidade luminosa normal".
+
+
+Passo a passo do projeto:
+
+1- Na sua própria máquina(no seu desktop), crie uma pasta ; está será responsável em armazenar todos os arquivos desenvolvidos durante o projeto.
+
+2- Coloque o nome da pasta de sua preferência(aconselho a colocar o nome de seu projeto).
+
+3- Já com o seu editor de código instalado na máquina; abra o seu editor(Eu utilizo o Visual Studio Code).
+
+4- No seu cabeçalho, procure em "Arquivo" e "Abrir Pasta"; nesse momento você deve encontrar o seu projeto e abri-lo.
+
+5- Faça pastas dentro da pasta do seu projeto a ser desenvolvido, estas iram conter arquivos de javascript, html e css.Nesse Projeto, a pasta do  "NOME DO PROJETO", irá conter duas pastas(js e css), no qual dentro dessas pastas irá possuir arquivos de css, javascript, e um html(este mantive solto sem uma pasta em particular).
+
+6- Nomeie os arquivos de maneira que seja direta, e sem complicações para evitar dificuldades em vincular ao longo do processo de desenvolvimento do projeto.
+Nesse projeto; foi nomeados os arquivos da seguinte maneira; para a pasta correspondente de javascript, a pasta js possui o arquivo index.js ,
+para a pasta correspondente de css, a pasta css possui o arquivo style.css;
+e o arquivo html, foi nomeado de index.html.
+
+
+//FEITO TODOS OS PROCEDIMENTOS ANTERIORES É HORA DE COMEÇAR A CODAR! 
+
+Passo a passo:
+
+ No HTML,
+
+1-Iniciaremos com a vinculação do css para estilização, personalização dos elementos e comunicação entre o html, css e javascript. Lembrando de vincular no head.Conforme a imagem abaixo:
+
+IMAGEM
+
+2-Será feito dentro body, div, com suas respectivas classes, para a formação de círculos de luzes, para titulo, botões, e espaço para aumentar ou diminuir a velocidade da intensidade luminosa.
+
+IMAGEM
+
+3-Para facilitar na leitura, e evitar muito código em apenas um local, vinculamos também o javascript no body do html, e editamos o código em outro arquivo que irá conter apenas o código javascript. 
+
+IMAGEM
+
+
+
+No CSS,
+
+1- Neste projeto terá como efeitos de animações, usando comando @keyframes.
+Toda a personalização e estilização poderá ser consultada no github. No qual deixarei o código disponibilizado, com comentários.
+
+https://gist.github.com/Noahsouzavieira/1d0594d66b146140aecb6910aa352f97?permalink_comment_id=4229728#gistcomment-4229728
+
+
+
+No Javascript,
+
+1- Usaremos as declarações const para escopo de bloco, selecionando quais elementos vamos trabalhar a funcionalidade.
+
+2- Depois de organizada as declarações iremos trabalhar com as funções para cumprir-se as animações ao clicar no botão ligar. A mesma coisa será feita com o botão desligar.
+
+3-  a intensidade luminosa, foi desenvolvida a seguinte lógica:
+
+
+4- A fim de efetuar todas funções  o aplicamento de addEventListener, será usado para configurar funções a ser chamadas quando um evento especificado acontece; neste caso em particular, ao clicar no botão.
+
+
+Imagens do projeto:
+Para visualizar o funcionamento do projeto em vídeo:
+
+https://www.instagram.com/p/CfxDn4qpl62/
+
+Para reproduzir o projeto em sua máquina confira o código:
+
+
+
+O projeto realizado foi apenas desenvolvido com fins Acadêmicos e sem vínculos comerciais.
+
+Sigam-me no instagram e no Git hub:
+
+instagram :@noahdeveloper
+
+Github:https://github.com/Noahsouzavieira
+
+Para ter uma experiência interativa com o código.
+https://codepen.io/noahsouzavieira/pen/wvmzzoN
